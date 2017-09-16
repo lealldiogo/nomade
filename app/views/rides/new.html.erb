@@ -1,10 +1,25 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-4 col-md-offset-4 first-top-padding">
+    <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 first-top-padding">
       <%= simple_form_for @ride do |f| %>
         <%= f.input :from, label: false, placeholder: "Origem" %>
         <%= f.input :to, label: false, placeholder: "Destino" %>
-        <%= f.submit "Buscar", class: "btn btn-success btn-block" %>
+        <%= cl_image_tag "maps_zpcbze.jpg", class: "img-responsive margin-map" %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <%= f.submit "Sair", class: "btn btn-success btn-block margin-map" %>
       <% end %>
     </div>
   </div>
