@@ -1,2 +1,7 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 50%), url('https://res.cloudinary.com/dswfrvots/image/upload/v1505530426/alexander-pidgeon-37749_jodrza.jpg');">
+  <div class="banner-content">
+    <h1>Aonde vamos?</h1>
+    <p>Com o nômade, você encontra rotas compartilhadas baratas e de longo alcance</p>
+    <%= link_to "Encontre sua rota", new_ride_path, class: "btn btn-lg btn-primary" %>
+  </div>
+</div>
